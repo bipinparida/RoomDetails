@@ -30,7 +30,7 @@ $(function(e) {
 		}],
 		xkey: 'x',
 		ykeys: ['y', 'z'],
-		lineColors: ['#0099ff', '#25c574'],
+		lineColors: ['#0099ff', '#4169e1'],
 		labels: ['Y', 'Z']
 	}).on('click', function(i, row) {
 		console.log(i, row);
@@ -58,7 +58,7 @@ $(function(e) {
 		}],
 		xkey: 'x',
 		ykeys: ['y', 'z'],
-		lineColors: ['#0099ff', '#25c574'],
+		lineColors: ['#0099ff', '#4169e1'],
 		labels: ['Y', 'Z']
 	});
 	/*---- morrisBar4----*/
@@ -98,7 +98,7 @@ $(function(e) {
 		barColors: function(row, series, type) {
 			if (type === 'bar') {
 				var red = Math.ceil(0 * row.y / this.ymax);
-				return '#25c574';
+				return '#4169e1';
 			} else {
 				return '#000';
 			}
@@ -152,7 +152,7 @@ $(function(e) {
 		xkey: 'period',
 		ykeys: ['licensed', 'sorned'],
 		labels: ['Licensed', 'SORN'],
-		barColors: ['#0099ff', '#25c574'],
+		barColors: ['#0099ff', '#4169e1'],
 		xLabelAngle: 0
 	});
 	var nReloads = 0;
@@ -176,7 +176,7 @@ $(function(e) {
 		xkey: 'x',
 		ykeys: ['y', 'z'],
 		labels: ['data1', 'data2'],
-		lineColors: ['#0099ff', '#25c574'],
+		lineColors: ['#0099ff', '#4169e1'],
 		parseTime: false,
 		ymin: -1.0,
 		ymax: 1.0,
@@ -237,7 +237,7 @@ $(function(e) {
 		xkey: 'period',
 		ykeys: ['licensed', 'sorned'],
 		labels: ['Licensed', 'SORN'],
-		lineColors: ['#0099ff', '#25c574'],
+		lineColors: ['#0099ff', '#4169e1'],
 	});
 	/*---- morrisBar8----*/
 	new Morris.Donut({
@@ -252,7 +252,7 @@ $(function(e) {
 			value: 10,
 			label: 'data3'
 		}],
-		colors: ['#25c574', '#0099ff', '#ffb209'],
+		colors: ['#4169e1', '#0099ff', '#ffb209'],
 		formatter: function(x) {
 			return x + "%"
 		}
@@ -283,7 +283,7 @@ $(function(e) {
 		}],
 		backgroundColor: '#fff',
 		labelColor: '#000',
-		colors: ['#25c574', '#0099ff', '#ffb209', '#ff1a1a', '#21c44c', '#1caf9f', '#f1c40f'],
+		colors: ['#4169e1', '#0099ff', '#ffb209', '#ff1a1a', '#21c44c', '#1caf9f', '#f1c40f'],
 		formatter: function(x) {
 			return x + "%"
 		}

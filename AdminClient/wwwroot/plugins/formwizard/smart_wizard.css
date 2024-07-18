@@ -84,14 +84,14 @@
 	border-radius:0 !important;
 }
 .sw-theme-default > ul.step-anchor > li.clickable > a:hover {
-    color: #25c574!important;
+    color: #4169e1!important;
     background: transparent !important;
     cursor: pointer;
 }
 
 .sw-theme-default > ul.step-anchor > li > a::after {
     content: "";
-    background:#25c574;
+    background:#4169e1;
     height: 2px;
     position: absolute;
     width: 100%;
@@ -107,7 +107,7 @@
 .sw-theme-default > ul.step-anchor > li.active > a {
     border: none !important;
     color: #fff !important;
-    background: #25c574!important;
+    background: #4169e1!important;
     cursor: pointer;
 }
 
@@ -125,7 +125,7 @@
 }
 
 .sw-theme-default > ul.step-anchor > li.done > a::after {
-    background:  #25c574!important;
+    background:  #4169e1!important;
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);

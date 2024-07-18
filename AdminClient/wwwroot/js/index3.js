@@ -12,7 +12,7 @@ $(function(e) {
 			  }
 			},
 		},
-		colors: ['#25c574', '#8c8eef', '#b7b9ec'],
+		colors: ['#4169e1', '#8c8eef', '#b7b9ec'],
 		dataLabels: {
 		  enabled: false
 		},
@@ -144,7 +144,7 @@ $(function(e) {
 				name: 'Bad'
 			}]
 		}, ],
-		color: ['#25c574', '#0099ff', '#21c44c', '#ffb209 ', '#f5334f']
+		color: ['#4169e1', '#0099ff', '#21c44c', '#ffb209 ', '#f5334f']
 	};
 	myChart2.setOption(option2);
 	/*--echart-1---*/
@@ -154,8 +154,8 @@ $(function(e) {
 	myCanvas.height="280";
 	var myCanvasContext = myCanvas.getContext("2d");
 	var gradientStroke1 = myCanvasContext.createLinearGradient(0, 0, 0, 380);
-	gradientStroke1.addColorStop(0, '#25c574');
-	gradientStroke1.addColorStop(1, '#25c574');
+	gradientStroke1.addColorStop(0, '#4169e1');
+	gradientStroke1.addColorStop(1, '#4169e1');
 
 	var gradientStroke2 = myCanvasContext.createLinearGradient(0, 0, 0, 300);
 	gradientStroke2.addColorStop(0, '#8c8eef');

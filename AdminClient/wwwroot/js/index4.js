@@ -4,8 +4,8 @@ $(function(e) {
 	/* Chartjs (#areaChart1) */
 	var ctx = document.getElementById('areaChart1').getContext('2d');
 	var gradientStroke1 = ctx.createLinearGradient(0, 0, 0, 140);
-	gradientStroke1.addColorStop(0, '#25c574');
-	gradientStroke1.addColorStop(1, '#25c574');
+	gradientStroke1.addColorStop(0, '#4169e1');
+	gradientStroke1.addColorStop(1, '#4169e1');
     var myChart = new Chart( ctx, {
         type: 'line',
         data: {
@@ -16,7 +16,7 @@ $(function(e) {
 				data: [30, 70, 30, 100, 50, 130, 100, 140],
 				backgroundColor: 'transparent',
 				borderColor: gradientStroke1,
-				pointBackgroundColor:'#25c574',
+				pointBackgroundColor:'#4169e1',
 				pointHoverBackgroundColor:gradientStroke1,
 				pointBorderColor :gradientStroke1,
 				pointHoverBorderColor :gradientStroke1,
@@ -322,10 +322,10 @@ $(function(e) {
 			datasets: [{
 				label: "Total Revenue",
 				data: [65, 59, 80, 81, 56, 55, 40, 80, 81, 56, 55, 40],
-				borderColor: "#25c574",
+				borderColor: "#4169e1",
 				borderWidth: "0",
 				barWidth: "1",
-				backgroundColor: "#25c574"
+				backgroundColor: "#4169e1"
 			}, {
 				label: "Total Expenses",
 				data: [28, 48, 40, 19, 66, 27, 50, 20, 41, 36, 25, 10],
@@ -377,7 +377,7 @@ $(function(e) {
 				data: [24, 30, 20, 28, 39, 22, 40],
 				label: '',
 				backgroundColor: 'rgba(63, 67, 236,0.6)',
-				borderColor: '#25c574',
+				borderColor: '#4169e1',
 			}, ]
 		},
 		options: {

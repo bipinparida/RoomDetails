@@ -12700,8 +12700,8 @@ a.icon:hover {
 }
 .btn-bitbucket {
 	color: #fff;
-	background-color: #25c574;
-	border-color: #25c574;
+	background-color: #4169e1;
+	border-color: #4169e1;
 }
 .btn-bitbucket:hover {
 	color: #fff;
@@ -12713,8 +12713,8 @@ a.icon:hover {
 }
 .btn-bitbucket.disabled, .btn-bitbucket:disabled {
 	color: #fff;
-	background-color: #25c574;
-	border-color: #25c574;
+	background-color: #4169e1;
+	border-color: #4169e1;
 }
 .btn-bitbucket:not(:disabled):not(.disabled):active, .btn-bitbucket:not(:disabled):not(.disabled).active, .show>.btn-bitbucket.dropdown-toggle {
 	color: #fff;

@@ -37,7 +37,7 @@ $(function() {
 			verticalLines: false,
 			horizontalLines: false
 		},
-		colors: ['#25c574', '#0099ff'],
+		colors: ['#4169e1', '#0099ff'],
 		yaxis: {
 			min: -1.2,
 			max: 1.2,
@@ -78,7 +78,7 @@ $(function() {
 			verticalLines: false,
 			horizontalLines: false
 		},
-		colors: ['#25c574', '#0099ff'],
+		colors: ['#4169e1', '#0099ff'],
 		yaxis: {
 			min: -1.2,
 			max: 1.2,
@@ -421,7 +421,7 @@ $(function() {
 		lines: {
 			show: true
 		},
-		color: "#25c574"
+		color: "#4169e1"
 	}, {
 		id: "f15%",
 		data: females["15%"],
@@ -430,7 +430,7 @@ $(function() {
 			lineWidth: 0,
 			fill: false
 		},
-		color: "#25c574"
+		color: "#4169e1"
 	}, {
 		id: "f25%",
 		data: females["25%"],
@@ -439,7 +439,7 @@ $(function() {
 			lineWidth: 0,
 			fill: 0.2
 		},
-		color: "#25c574",
+		color: "#4169e1",
 		fillBetween: "f15%"
 	}, {
 		id: "f50%",
@@ -450,7 +450,7 @@ $(function() {
 			fill: 0.4,
 			shadowSize: 0
 		},
-		color: "#25c574",
+		color: "#4169e1",
 		fillBetween: "f25%"
 	}, {
 		id: "f75%",
@@ -460,7 +460,7 @@ $(function() {
 			lineWidth: 0,
 			fill: 0.4
 		},
-		color: "#25c574",
+		color: "#4169e1",
 		fillBetween: "f50%"
 	}, {
 		id: "f85%",
@@ -470,7 +470,7 @@ $(function() {
 			lineWidth: 0,
 			fill: 0.2
 		},
-		color: "#25c574",
+		color: "#4169e1",
 		fillBetween: "f75%"
 	}, {
 		label: "Male mean",
@@ -595,7 +595,7 @@ $(function() {
 		grid: {
 			borderColor: "rgba(142, 156, 173,0.2)",
 		},
-		colors: ["#25c574"],
+		colors: ["#4169e1"],
 		yaxis: {
 			min: 0,
 			max: 100,
@@ -715,7 +715,7 @@ $(function() {
 			grid: {
 				borderColor: "rgba(142, 156, 173,0.2)",
 			},
-			colors: ['#25c574', '#0099ff'],
+			colors: ['#4169e1', '#0099ff'],
 			yaxis: {
 				tickLength: 0
 			},
@@ -759,7 +759,7 @@ $(function() {
 					show: true
 				}
 			},
-			colors: ['#25c574', '#0099ff', '#ffb209', '#ff1a1a', '#21c44c'],
+			colors: ['#4169e1', '#0099ff', '#ffb209', '#ff1a1a', '#21c44c'],
 		});
 	});
 	$("#example-2").on("click", function(e) {
@@ -772,7 +772,7 @@ $(function() {
 					show: true
 				}
 			},
-			colors: ['#25c574', '#0099ff', '#ffb209', '#ff1a1a', '#21c44c'],
+			colors: ['#4169e1', '#0099ff', '#ffb209', '#ff1a1a', '#21c44c'],
 			legend: {
 				show: false
 			}
@@ -797,7 +797,7 @@ $(function() {
 					}
 				}
 			},
-			colors: ['#25c574', '#0099ff', '#ffb209', '#ff1a1a', '#21c44c'],
+			colors: ['#4169e1', '#0099ff', '#ffb209', '#ff1a1a', '#21c44c'],
 			legend: {
 				show: false
 			}
@@ -822,7 +822,7 @@ $(function() {
 					}
 				}
 			},
-			colors: ['#25c574', '#0099ff', '#ffb209', '#ff1a1a', '#64E572'],
+			colors: ['#4169e1', '#0099ff', '#ffb209', '#ff1a1a', '#64E572'],
 			legend: {
 				show: false
 			}
@@ -848,7 +848,7 @@ $(function() {
 					}
 				}
 			},
-			colors: ['#25c574', '#0099ff', '#ffb209', '#ff1a1a', '#21c44c'],
+			colors: ['#4169e1', '#0099ff', '#ffb209', '#ff1a1a', '#21c44c'],
 			legend: {
 				show: false
 			}
@@ -874,7 +874,7 @@ $(function() {
 					}
 				}
 			},
-			colors: ['#25c574', '#0099ff', '#ffb209', '#ff1a1a', '#21c44c'],
+			colors: ['#4169e1', '#0099ff', '#ffb209', '#ff1a1a', '#21c44c'],
 			legend: {
 				show: false
 			}
@@ -897,7 +897,7 @@ $(function() {
 					}
 				}
 			},
-			colors: ['#25c574', '#0099ff', '#ffb209', '#ff1a1a', '#21c44c'],
+			colors: ['#4169e1', '#0099ff', '#ffb209', '#ff1a1a', '#21c44c'],
 			legend: {
 				show: false
 			}
@@ -917,7 +917,7 @@ $(function() {
 					}
 				}
 			},
-			colors: ['#25c574', '#0099ff', '#ffb209', '#ff1a1a', '#21c44c'],
+			colors: ['#4169e1', '#0099ff', '#ffb209', '#ff1a1a', '#21c44c'],
 			legend: {
 				show: false
 			}
@@ -939,7 +939,7 @@ $(function() {
 					}
 				}
 			},
-			colors: ['#25c574', '#0099ff', '#ffb209', '#ff1a1a', '#21c44c'],
+			colors: ['#4169e1', '#0099ff', '#ffb209', '#ff1a1a', '#21c44c'],
 			legend: {
 				show: false
 			}
@@ -969,7 +969,7 @@ $(function() {
 					}
 				}
 			},
-			colors: ['#25c574', '#0099ff', '#ffb209', '#ff1a1a', '#21c44c'],
+			colors: ['#4169e1', '#0099ff', '#ffb209', '#ff1a1a', '#21c44c'],
 			legend: {
 				show: false
 			}

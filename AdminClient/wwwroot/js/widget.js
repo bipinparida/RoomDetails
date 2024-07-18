@@ -6,7 +6,7 @@ $(function () {
 		value: 0.85,
 		size: 70,
 		fill: {
-		  gradient: ["#25c574", "#25c574"]
+		  gradient: ["#4169e1", "#4169e1"]
 		}
     });
 	/* Circle-progress closed */
@@ -44,8 +44,8 @@ $(function () {
 	/* Chartjs (#areaChart1) */
 	var ctx = document.getElementById('areaChart1').getContext('2d');
 	var gradientStroke1 = ctx.createLinearGradient(0, 0, 0, 140);
-	gradientStroke1.addColorStop(0, '#25c574');
-	gradientStroke1.addColorStop(1, '#25c574');
+	gradientStroke1.addColorStop(0, '#4169e1');
+	gradientStroke1.addColorStop(1, '#4169e1');
     var myChart = new Chart( ctx, {
         type: 'line',
         data: {
